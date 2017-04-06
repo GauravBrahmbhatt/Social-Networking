@@ -22,10 +22,7 @@ public class Database {
      private static final String DB_URL = "jdbc:mysql://localhost:3306/twitter";
      private static final String userName = "root";
      private static final String password = "admin123";
-    //private static final String DB_URL = "jdbc:mysql://mis-sql.uhcl.edu/prabhua6510";
-    //private static final String userName = "prabhua6510";
-    //private static final String password = "1441868";
-
+    
     public static boolean IsRowPresent(String query) {
         driverLoad();
         Connection conn = null;

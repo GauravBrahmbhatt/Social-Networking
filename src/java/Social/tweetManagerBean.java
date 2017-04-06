@@ -54,9 +54,6 @@ public class tweetManagerBean implements Serializable {
     //private String userName;
 
     //Database
-    //final String DB_URL = "jdbc:mysql://mis-sql.uhcl.edu/prabhua6510";
-    //final String DB_USER = "prabhua6510";
-    //final String DB_PASS = "1441868";
     final String DB_URL = "jdbc:mysql://localhost:3306/twitter";
     final String DB_USER = "root";
     final String DB_PASS = "admin123";

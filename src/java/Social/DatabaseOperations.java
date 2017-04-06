@@ -24,7 +24,6 @@ public class DatabaseOperations {
     //private static final String userName = "root";
     //private static final String password = "admin123";
     
-    //static final String DB_URL = "jdbc:mysql://mis-sql.uhcl.edu/prabhua6510";
     static Connection conn = null;
     static Statement stat = null;
     static ResultSet rs = null;
